@@ -5,7 +5,7 @@
   "bin": "a.js",
   "license": "UNLICENSED",
   "devDependencies": {
-    "pkg": "^4.4.0"
+    "pkg": "^5.8.1"
   },
   "pkg": {
     "scripts": [

@@ -16,7 +16,7 @@
     "pug": "^3.0.2"
   },
   "devDependencies": {
-    "pkg": "5.2.1"
+    "pkg": "5.8.1"
   },
   "pkg": {
     "assets": "./public/views/*.pug"
