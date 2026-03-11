@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "module": "commonjs",
-    "allowJs": true,
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
-    "outDir": "lib-es5",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
-    "incremental": true,
-    "downlevelIteration": true,
-    "resolveJsonModule": true
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "sourceMap": true
   },
-  "include": ["lib/**/*", "typings/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
 }

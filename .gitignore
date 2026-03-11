@@ -20,4 +20,6 @@ examples/express/node_modules
 # Editors
 .vscode/
 yarn-error.log
-tsconfig.tsbuildinfo
+tsconfig.tsbuildinfodist
+__pycache__
+.env
