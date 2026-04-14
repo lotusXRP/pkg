@@ -7,7 +7,7 @@ module.exports = {
       log.warn(
         'Add { paths: [ __dirname ] } to ' +
           'stylus options to resolve imports',
-        [opts.packagePath]
+        [opts.packagePath],
       );
     },
   },
