@@ -6,7 +6,7 @@ export interface FileRecord {
   // This could be improved a bit. making this stricter opens up a lot of
   // changes that need to be made throughout the code though
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: number]: any;
+  [key: number]: unknown;
 }
 
 export type FileRecords = Record<string, FileRecord>;

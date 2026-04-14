@@ -881,7 +881,7 @@ class Walker {
       store: STORE_STAT,
     });
 
-    const derivatives1: Derivative[] = [];
+    const derivatives1: readonly Derivative[] = [];
     await this.stepActivate(marker, derivatives1);
     await this.stepDerivatives(record, marker, derivatives1);
 
@@ -915,7 +915,7 @@ class Walker {
       }
 
       if (store === STORE_BLOB) {
-        const derivatives2: Derivative[] = [];
+        const derivatives2: readonly Derivative[] = [];
         stepDetect(record, marker, derivatives2);
         await this.stepDerivatives(record, marker, derivatives2);
       }

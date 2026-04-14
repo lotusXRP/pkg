@@ -52,7 +52,7 @@ const hostNodeRange = `node${process.version.match(/^v(\d+)/)![1]}`;
 
 function parseTargets(items: string[]): NodeTarget[] {
   // [ 'node6-macos-x64', 'node6-linux-x64' ]
-  const targets: NodeTarget[] = [];
+  const targets: readonly NodeTarget[] = [];
 
   for (const item of items) {
     const target = {

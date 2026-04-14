@@ -64,7 +64,7 @@ export default function packer({
   entrypoint,
   bytecode,
 }: PackerOptions) {
-  const stripes: Stripe[] = [];
+  const stripes: readonly Stripe[] = [];
 
   for (const snap in records) {
     if (records[snap]) {
